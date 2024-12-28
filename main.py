@@ -29,7 +29,7 @@ def create_story_provider(openai_creds_json_filepath: str) -> StoryProvider:
     text_generator = TextGenerator(text_processor=text_processor)
     image_generator = ImageGenerator()
     credentials_provider = OpenAICredentialsProvider(
-        json_filepath="/Users/amanattar/Documents/1 My Computer/Project/ai-story-generator/credentials/openai-creds.json"
+        json_filepath="credentials/openai-creds.json"
     )
     story_content_generator = StoryContentGenerator(
         text_generator=text_generator,

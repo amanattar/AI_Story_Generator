@@ -1,7 +1,7 @@
-AI Story Generator
+Talesmith AI
 ==================
 
-The **AI Story Generator** is a Python-based application that creates multimedia storytelling experiences. It uses OpenAI's GPT for text generation, integrates images and audio, and compiles the content into a video using MoviePy and FFmpeg.
+The **Talesmith AI** is a Python-based application that creates multimedia storytelling experiences. It uses OpenAI's GPT for text generation, integrates images and audio, and compiles the content into a video using MoviePy and FFmpeg.
 
 Features
 --------
@@ -33,8 +33,8 @@ Installation
 ### 1\. Clone the Repository
 
 ```bash
-git clone https://github.com/amanattar/AI_Story_Generator.git
-cd AI_Story_Generator
+git clone https://github.com/amanattar/Talesmith_AI.git
+cd Talesmith_AI
 ```
 
 ### 2\. Set Up a Conda Environment
@@ -102,7 +102,7 @@ Project Structure
 -----------------
 
 ```plaintext
-AI_Story_Generator/
+Talesmith_AI/
 ├── main.py                       # Main script to run the project
 ├── story_provider.py             # Handles story generation and management
 ├── story_manager.py              # Manages multimedia content
